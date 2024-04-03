@@ -70,3 +70,32 @@ li:hover {
     font-weight: bold;
     border: 3px solid white;
 }
+
+/* offer */
+
+#offer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+#offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+    background-color: #e3dfee;
+}
+
+#announce_offer {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+    background-color: aqua;
+    width: 1100px;
+}

@@ -3,10 +3,12 @@
     src: url(./assets/fonts/AnandaBlack.ttf);
 }
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Roboto;
 }
 
 /* header */
@@ -14,10 +16,15 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin:0 150px;
+    padding:0 150px;
+    height: 70px;
+    background-color: #76B3F7;
+    color: white;
     }
 h1 {
     font-family: AmandaBlack;
+    display: flex;
+    align-items: center;
 }
 
 ul {
@@ -28,5 +35,10 @@ ul {
 li {
     list-style: none;
     display: flex;
-    padding-right: 20px;
+    padding-right: 30px;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: bold;
 }

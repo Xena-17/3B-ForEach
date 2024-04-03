@@ -42,3 +42,26 @@ li:hover {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* jumbo */
+
+#jumbo {
+    height: 400px;
+    background-image: url(./assets/images/bowling_field.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title_3B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+    height: 150px;
+    background-color: aqua;
+}

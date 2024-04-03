@@ -63,5 +63,10 @@ li:hover {
     margin: auto;
     width: 1000px;
     height: 150px;
-    background-color: aqua;
+    background-color: black;
+    opacity: 0.70;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
 }

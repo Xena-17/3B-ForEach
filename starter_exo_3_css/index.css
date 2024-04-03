@@ -1,0 +1,32 @@
+@font-face {
+    font-family: AmandaBlack;
+    src: url(./assets/fonts/AnandaBlack.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin:0 150px;
+    }
+h1 {
+    font-family: AmandaBlack;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}

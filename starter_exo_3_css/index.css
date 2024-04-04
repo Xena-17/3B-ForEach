@@ -55,6 +55,18 @@ li:hover {
     justify-content: center;
 }
 
+#arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#arrow_up{
+   
+    background-color: #D5DFEF;
+    height: 3%;
+    width: 3%;
+}
+
 #title_3B {
     display: flex;
     flex-direction: column;

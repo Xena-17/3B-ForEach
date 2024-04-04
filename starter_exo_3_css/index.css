@@ -150,6 +150,10 @@ b_offer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #808080a3;
 }
 #orange_baseball {
     background-color: #FF9595;
@@ -158,6 +162,10 @@ b_offer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #808080a3;
 }
 #yellow_pool {
     background-color: #FFE572 ;
@@ -166,9 +174,20 @@ b_offer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #808080a3;
+}
+.b_offer span {
+    margin: 10px;
+}
+.offer_description {
+    margin: 10px 0;
 }
 
 /* contact */
+
 
 
 

@@ -188,6 +188,54 @@ b_offer p {
 
 /* contact */
 
+#contact {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+#contact h2,p{
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
 
+   
+}
+input {
+    padding: 10px;
+}
+
+#first_name,#email {
+    margin-bottom: 10PX;
+}
+#information {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
+
+}
+#information_textarea {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+textarea {
+    width: 50%;
+}
+#submit {
+    width: 100px;
+    margin:auto;
+    color: white;
+    background-color: #76B3F7;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
 

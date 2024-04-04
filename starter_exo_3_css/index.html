@@ -90,14 +90,18 @@
         <p>
             Contactez-nous pour toute question ou information. Nous sommes là pour vous aider !
         </p>
-        <div>
-            <input type="text" name="first_name" id="first_name" placeholder="Prénom *">
-            <input type="email" name="email" id="email" placeholder="email *">
-            <input type="tel" name="tel" id="tel" placeholder="Numéro de télépone">
+        <form>
+            <div id="information_textarea">
+            <div id="information">
+                <input type="text" name="first_name" id="first_name" placeholder="Prénom *">
+                <input type="email" name="email" id="email" placeholder="email *">
+                <input type="tel" name="tel" id="tel" placeholder="Numéro de téléphone">
+            </div>
             <textarea name="message" id="message" placeholder="Votre message">          
             </textarea>
-            <input type="submit" value="Envoyer">
-        </div>
+            </div>
+            <input type="submit" id="submit" value="Envoyer">
+        </form>
     </div>
     <footer></footer> 
 </body>
